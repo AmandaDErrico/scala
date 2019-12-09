@@ -13,5 +13,5 @@ object Hello extends App {
   def or(x:Boolean, y: =>Boolean) = if(x) true else y
   val a = false
   val b = false
-  println("Test result: " + and(a, b))
+  println("Test result: " + or(a, b))
 }
