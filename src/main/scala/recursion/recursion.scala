@@ -1,6 +1,6 @@
 package recursion
 
-object factorial {
+object recur {
   def myFactorial(n: Int): Int = {
     // factorial: (n: Int)Int, res0: Int = 24
     def loop(acc: Int, n: Int): Int =
@@ -20,8 +20,8 @@ object factorial {
 
   // representing static main class, can also put object factorial extends App
   def main(args: Array[String]) {
-    println(factorial.myFactorial(4))
-    println(factorial.sum(x => x * x, 3, 5)) // res1 = 50
+    println(recur.myFactorial(4))
+    println(recur.sum(x => x * x, 3, 5)) // res1 = 50
   }
 }
 
