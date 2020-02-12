@@ -21,7 +21,7 @@ object recur {
   // representing static main class, can also put object factorial extends App
   def main(args: Array[String]) {
     println(recur.myFactorial(4))
-    println(recur.sum(x => x * x, 3, 5)) // res1 = 50
+    println(sum(x => x * x, 3, 5)) // res1 = 50
   }
 }
 
